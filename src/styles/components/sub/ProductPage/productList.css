@@ -1,0 +1,29 @@
+.product-list-menu{
+  height: 50px;
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  border-bottom: 1px solid var(--cloudy-gray);
+}
+
+.order-tabs{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.order-tab{
+  background-color: transparent;
+  color: var(--dark-gray);
+}
+
+.order-tab.active,
+.order-tab:hover{
+  color: var(--light-black);
+}
+
+.product-list-wrap .product-grid{
+  margin-bottom: 50px;
+}

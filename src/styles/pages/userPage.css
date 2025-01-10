@@ -1,0 +1,79 @@
+.user-page-wrap .title{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.user-info{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-info table{
+  width: 60%;
+  min-height: 300px;  
+}
+
+.user-info table tr:not(:nth-of-type(5)){
+  border-bottom: 1px solid var(--cloudy-gray);
+}
+
+.user-info table th{
+  text-align: left;
+  vertical-align: middle;
+  font-weight: 600;
+}
+
+.user-info table td{
+  vertical-align: middle;
+}
+
+.user-button-group{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.user-button-group button{
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: transparent;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.user-button-group .edit-button{
+  border: 1px solid var(--light-black);
+  background-color: var(--light-black);
+  color: var(--white);
+}
+
+.user-button-group .edit-button:hover{
+  border: 1px solid var(--black);
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.user-button-group .logout-button{
+  border: 1px solid var(--light-black);
+  color: var(--light-black);
+}
+
+.user-button-group .logout-button:hover{
+  background-color: var(--light-gray);
+}
+
+.user-button-group .delete-button{
+  border: 1px solid var(--red);
+  color: var(--red);
+}
+
+.user-button-group .delete-button:hover{
+  background-color: #ffdcdb;
+}

@@ -1,0 +1,32 @@
+.review-wrap{
+  position: relative;
+  padding: 0 8px;
+}
+
+.review-wrap .title{
+  margin-left: 8px;
+}
+
+.review-wrap .slick-list {
+  height: 100%;
+}
+
+.review-wrap .slick-slide{
+  padding: 0 8px;
+}
+
+.review-wrap .prev-next-btn{
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.review-wrap .prev-btn{
+  position: absolute;
+  left: -60px;
+}
+
+.review-wrap .next-btn{
+  position: absolute;
+  right: -60px;
+}

@@ -1,0 +1,41 @@
+.long-banner-wrap{
+  height: 240px;
+  padding: 0 8px;
+  position: relative;
+}
+
+.long-banner-image{
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.long-banner-wrap img{
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+}
+
+.long-banner-wrap:hover img{
+  transform: scale(1.1);
+}
+
+.long-banner-text{
+  position: absolute;
+  top: 50%;
+  left: 80px;
+  transform: translateY(-50%);
+  color: var(--white);
+}
+
+.long-banner-text h1{
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.long-banner-text span{
+  line-height: 1.5em;
+  font-weight: 300;
+}

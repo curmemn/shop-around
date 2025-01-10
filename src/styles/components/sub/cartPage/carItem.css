@@ -1,0 +1,36 @@
+.cart-item-td .product-input{
+  gap: 5px;
+}
+
+.cart-item-td .input-button{
+  transform: translateY(1px);
+}
+
+.cart-item-button{
+  display: flex;
+  gap: 5px;
+}
+
+.cartpage-button{
+  border: 1px solid var(--light-black);
+  background-color: var(--light-black);
+  color: var(--white);
+  transition: 0.3s;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.cartpage-button:hover{
+  background-color: var(--black);
+}
+
+.cart-item-button .cartpage-button:last-child{
+  background-color: var(--white);
+  color: var(--light-black);
+}
+
+.cart-item-button .cartpage-button:last-child:hover{
+  color: var(--red);
+  border: 1px solid var(--red);
+}

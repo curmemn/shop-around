@@ -1,0 +1,19 @@
+.remodeling-wrap .wide-area{
+  position: relative;
+}
+
+.remodeling-wrap > .title{
+  margin-left: 8px;
+}
+
+.remodeling-wrap .wide-visual-text{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 85px;
+}
+
+.remodeling-wrap .wide-visual-text .title{
+  flex-direction: column;
+  align-items: flex-start;
+}

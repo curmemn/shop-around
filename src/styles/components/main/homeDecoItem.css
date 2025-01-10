@@ -1,0 +1,11 @@
+.homedeco-wrap .wide-area{
+  width: 840px;
+}
+
+.homedeco-wrap .title{
+  margin-left: 8px;
+}
+
+.homedeco-wrap .product-detail-card:last-child{
+  margin-bottom: 16px;
+}

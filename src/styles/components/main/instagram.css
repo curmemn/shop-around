@@ -1,0 +1,7 @@
+.instagram-grid{
+  display: grid;
+  width: 100%;
+  height: 300px;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px;
+}

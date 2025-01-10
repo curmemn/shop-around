@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "호텔 스타일 침실",
+    "desc": "취향대로 완성하는 호텔 침실 인테리어",
+    "price": 12000,
+    "discountRate": 25,
+    "isNew": true,
+    "isBest": true,
+    "image": "/assets/images/product01.jpg",
+    "category": "침실"
+  },
+  {
+    "id": 2,
+    "name": "베이직 타원 테이블",
+    "desc": "타원형 상판의 베이직한 디자인",
+    "price": 20000,
+    "discountRate": 5,
+    "isNew": true,
+    "isBest": true,
+    "image": "/assets/images/product02.jpg",
+    "category": "홈데코"
+  },
+  {
+    "id": 3,
+    "name": "베른 하이백 소파",
+    "desc": "베른 4인 천연가죽 하이백 소파",
+    "price": 14000,
+    "discountRate": 29,
+    "isNew": true,
+    "isBest": true,
+    "image": "/assets/images/product03.jpg",
+    "category": "침실"
+  },
+  {
+    "id": 4,
+    "name": "플레이트 원형 테이블",
+    "desc": "공간을 효율적으로 활용 가능한 플레이트 원형 테이블",
+    "price": 9000,
+    "discountRate": 0,
+    "isNew": true,
+    "isBest": true,
+    "image": "/assets/images/product04.jpg",
+    "category": "홈데코"
+  },
+  {
+    "id": 5,
+    "name": "와이드 서랍장",
+    "desc": "관리가 손쉬운 와이드 서랍장",
+    "price": 25000,
+    "discountRate": 12,
+    "isNew": true,
+    "isBest": true,
+    "image": "/assets/images/product05.jpg",
+    "category": "침실"
+  },
+  {
+    "id": 6,
+    "name": "케플러 클래식 서랍",
+    "desc": "케플러클래식 책상과 세트인 원목다리 책상서랍",
+    "price": 12000,
+    "discountRate": 25,
+    "isNew": true,
+    "isBest": true,
+    "image": "/assets/images/product06.jpg",
+    "category": "침실"
+  },
+  {
+    "id": 7,
+    "name": "호텔 헤드보드 침대",
+    "desc": "넓은 헤드보드에 은은한 조명이 특징인 호텔 침대",
+    "price": 18500,
+    "discountRate": 8,
+    "isNew": true,
+    "isBest": true,
+    "image": "/assets/images/product07.jpg",
+    "category": "침실"
+  },
+  {
+    "id": 8,
+    "name": "모던 식탁의자",
+    "desc": "어느 식탁에 놓아도 잘 어울리는 식탁의자",
+    "price": 19000,
+    "discountRate": 11,
+    "isNew": true,
+    "isBest": true,
+    "image": "/assets/images/product08.jpg",
+    "category": "홈데코"
+  },
+  {
+    "id": 9,
+    "name": "감성 인테리어 소품",
+    "desc": "감성적인 인테리어 소품",
+    "price": 25000,
+    "discountRate": 12,
+    "isNew": true,
+    "isBest": true,
+    "image": "/assets/images/product09.jpg",
+    "category": "홈데코"
+  },
+  {
+    "id": 10,
+    "name": "카페 원형 테이블 의자 세트",
+    "desc": "집에서도 카페처럼 카페원형테이블 및 의자",
+    "price": 12000,
+    "discountRate": 25,
+    "isNew": true,
+    "isBest": true,
+    "image": "/assets/images/product10.jpg",
+    "category": "홈데코"
+  },
+  {
+    "id": 11,
+    "name": "쿠션 소파",
+    "desc": "오리털이 내장된 등쿠션의 편안한 쿠션감의 소파",
+    "price": 18500,
+    "discountRate": 8,
+    "isNew": true,
+    "isBest": true,
+    "image": "/assets/images/product11.jpg",
+    "category": "침실"
+  },
+  {
+    "id": 12,
+    "name": "블리스데코 거실장",
+    "desc": "블리스데코 대리석 직사각형 거실장 수납장",
+    "price": 19000,
+    "discountRate": 11,
+    "isNew": true,
+    "isBest": true,
+    "image": "/assets/images/product12.jpg",
+    "category": "홈데코"
+  }
+]

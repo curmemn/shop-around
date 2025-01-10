@@ -1,0 +1,59 @@
+.quick-menu{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  z-index: 99999;
+  top: 50%;
+  right: 80px;
+  transform: translateY(-50%);
+  width: 120px;
+  opacity: 0;
+  transition: 0.3s;
+  pointer-events: none;
+}
+
+.quick-menu.active{
+  pointer-events: unset;
+  opacity: 1;
+}
+
+.quick-button{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.quick-button a{
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.quick-button a:hover{
+  opacity: 0.7;
+}
+
+.quick-button img{
+  width: 100%;
+}
+
+.quick-top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--light-black);
+  font-size: 30px;
+  color: var(--white);
+  transition: 0.3s;
+}
+
+.quick-top:hover{
+  background-color: var(--black);
+}

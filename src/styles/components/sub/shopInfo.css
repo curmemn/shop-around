@@ -1,0 +1,33 @@
+.shop-info{
+  margin-top: 532px;
+  padding-left: 8px;
+  width: 245px;
+}
+
+.shop-info-wrap{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.shop-info-item{
+  width: 100%;
+  padding: 20px 10px;
+  background-color: var(--light-gray);
+  border-radius: 10px;
+}
+
+.shop-info-item span{
+  font-size: 14px;
+  line-height: 1.5em;
+  white-space: nowrap;
+}
+
+.shop-info-item span b{
+  font-weight: 600;
+}
+
+.shop-info-item h3{
+  font-size: 20px;
+  margin: 5px 0;
+}

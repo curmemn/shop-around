@@ -1,0 +1,31 @@
+.best-product-wrap{
+  position: relative;
+}
+
+.best-product-wrap .title{
+  margin-left: 8px;
+}
+
+.best-product-wrap .slick-list {
+  height: 100%;
+}
+
+.best-product-wrap .slick-slide{
+  padding: 0 8px;
+}
+
+.best-product-wrap .prev-next-btn{
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.best-product-wrap .prev-btn{
+  position: absolute;
+  left: -60px;
+}
+
+.best-product-wrap .next-btn{
+  position: absolute;
+  right: -60px;
+}

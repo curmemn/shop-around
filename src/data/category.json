@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+  "image": "assets/images/icon01.jpg",
+  "title": "침실가구",
+  "subTitle": "침실, 매트리스, 침실소가구 등"
+  },
+  {
+  "id": 2,
+  "image": "assets/images/icon02.jpg",
+  "title": "거실가구",
+  "subTitle": "거실소파, 거실테이블, 거실수납장 등"
+  },
+  {
+  "id": 3,
+  "image": "assets/images/icon03.jpg",
+  "title": "옷장/수납가구",
+  "subTitle": "옷장, 수납장, 드레스룸, 붙박이장 등"
+  },
+  {
+  "id": 4,
+  "image": "assets/images/icon04.jpg",
+  "title": "주방가구",
+  "subTitle": "주방식탁, 주방의자, 아일랜드식탁 등"
+  },
+  {
+  "id": 5,
+  "image": "assets/images/icon05.jpg",
+  "title": "키즈/주니어",
+  "subTitle": "침대, 수납, 서랍장, 놀이매트, 옷장 등"
+  },
+  {
+  "id": 6,
+  "image": "assets/images/icon06.jpg",
+  "title": "서재/홈오피스",
+  "subTitle": "책상, 의자, 수납, 문구용품 등"
+  },
+  {
+  "id": 7,
+  "image": "assets/images/icon07.jpg",
+  "title": "홈데코",
+  "subTitle": "스탠드무드등, 설치조명, 데코소품 등"
+  },
+  {
+  "id": 8,
+  "image": "assets/images/icon08.jpg",
+  "title": "조명/홈케어",
+  "subTitle": "가전케어, 인테리어소품, 청소방역 등"
+  },
+  {
+  "id": 9,
+  "image": "assets/images/icon09.jpg",
+  "title": "반려/동물",
+  "subTitle": "펫가구, 실내용품, 펫푸드/식기, 위생용품 등"
+  },
+  {
+  "id": 10,
+  "image": "assets/images/icon10.jpg",
+  "title": "리모델링/시공 아이템",
+  "subTitle": "욕실, 주방가구, 중문/파티션 등"
+  },
+  {
+    "id": 11,
+    "image": "assets/images/icon11.jpg",
+    "title": "패브릭",
+    "subTitle": "커튼/블라인드, 러그/매트, 패브릭소품 등"
+  }
+]
