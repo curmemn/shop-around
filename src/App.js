@@ -12,6 +12,7 @@ import ProductPage from './pages/ProductPage';
 import ProductDetailPage from './pages/ProductDetailPage';
 import LoginPage from './pages/LoginPage';
 import UserPage from './pages/UserPage';
+import ScrollToTop from './components/common/ScrollToTop';
 
 /* css */
 import './styles/reset/reset.css';
@@ -34,6 +35,7 @@ function App() {
     <LoginProvider>
       <CartProvider>
         <BrowserRouter>
+          <ScrollToTop/>
           <Banner/>
           <Header recentViewed={recentViewed}/>
           <main>
