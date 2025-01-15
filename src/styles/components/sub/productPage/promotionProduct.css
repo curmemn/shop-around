@@ -1,0 +1,3 @@
+.promotion-product-wrap .product-grid.gd3{
+  grid-template-columns: repeat(3, 1fr);
+}
