@@ -2,7 +2,7 @@ import React, { useState, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { LoginContext } from '../../../context/LoginContext';
 import { ExclamationSquare, Dash, Plus } from 'react-bootstrap-icons';
-import '../../../styles/components/sub/ProductDetailPage/productDetail.css';
+import '../../../styles/components/sub/productDetailPage/productDetail.css';
 
 const ProductDetail = ({ product, addToCart }) => {
   const [quantity, setQuantity] = useState(1);

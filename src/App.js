@@ -12,6 +12,7 @@ import ProductPage from './pages/ProductPage';
 import ProductDetailPage from './pages/ProductDetailPage';
 import LoginPage from './pages/LoginPage';
 import UserPage from './pages/UserPage';
+import SearchPage from './pages/SearchPage';
 import ScrollToTop from './components/common/ScrollToTop';
 
 /* css */
@@ -46,6 +47,7 @@ function App() {
               <Route path='/product/:productId' element={<ProductDetailPage />}></Route>
               <Route path='/login' element={<LoginPage />}></Route>
               <Route path='/user' element={<UserPage />}></Route>
+              <Route path='/search' element={<SearchPage addToRecentViewed={addToRecentViewed}/>}></Route>
             </Routes>
           </main>
           <Footer />

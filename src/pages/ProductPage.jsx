@@ -2,8 +2,8 @@ import React from 'react'
 import ShopHeader from '../components/sub/ShopHeader'
 import ShopInfo from '../components/sub/ShopInfo'
 import Title from '../components/common/Title'
-import PromotionProduct from '../components/sub/ProductPage/PromotionProduct'
-import ProductList from '../components/sub/ProductPage/ProductList'
+import PromotionProduct from '../components/sub/productPage/PromotionProduct'
+import ProductList from '../components/sub/productPage/ProductList'
 import '../styles/pages/productPage.css'
 
 const ProductPage = ({ addToRecentViewed }) => {

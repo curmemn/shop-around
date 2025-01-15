@@ -44,6 +44,13 @@ const Header = ({ recentViewed }) => {
     };
   }, []);
 
+  const [searchItem, setSearchItem] = useState('');
+
+  const handleSearch = () => {
+    navigate(`/search?query=${encodeURIComponent(searchItem)}`);
+    setSearchItem('');
+  }
+
   return (
     <div className='header-wrap'>
       <header className='header inner'>
@@ -71,10 +78,15 @@ const Header = ({ recentViewed }) => {
         <Link to='/' className='header-logo'>
           <img src="/assets/images/logo.png" alt="around 로고"/>
         </Link>
-        <div className='search-wrap'>
-          <input type="text" placeholder='찾으시는 가구를 검색해보세요.'/>
-          <button className='search-button'><Search /></button>
-        </div>
+        <form className='search-wrap' onSubmit={(e) => { e.preventDefault(); handleSearch();}}>
+        <input
+        type="text"
+        placeholder='찾으시는 가구를 검색해보세요.'
+        value={searchItem}
+        onChange={(e) => setSearchItem(e.target.value)}
+        />
+          <button className='search-button' type='submit'><Search /></button>
+        </form>
         <div className='button-wrap'>
           <Link to='/cart' className="button-item">
             <Cart3 />
