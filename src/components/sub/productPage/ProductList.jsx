@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react'
 import ProductDetailCard from '../../main/ProductDetailCard'
 import products from '../../../data/products.json'
 import { CartContext } from '../../../context/CartContext'
-import '../../../styles/components/sub/ProductPage/productList.css'
+import '../../../styles/components/sub/productPage/productList.css'
 
 const ProductList = ({ addToRecentViewed }) => {
   const { addToCart } = useContext(CartContext);
